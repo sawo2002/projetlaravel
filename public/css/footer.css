@@ -1,0 +1,39 @@
+.footer {
+    background-color: rgb(54, 38, 0);
+    color: white;
+}
+
+.footer img {
+    height:100px;
+    padding-top: 40px;
+}
+
+.footer .menu-footer {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.menu-footer li a {
+    color: rgb(220, 220, 220);
+}
+
+.footer .info-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer .reseau {
+    display: flex;
+    padding-top: 20px;
+    list-style: none;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.reseau li a {
+    color: rgb(212, 209, 209);
+}

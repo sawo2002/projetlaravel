@@ -1,0 +1,25 @@
+/* .header {
+    position: fixed;
+} */
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+    align-items: center;
+    /* position: fixed; */
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+}
+
+.header .logo {
+    height: 55px;
+}
+
+.menu li a{
+    color: black;
+}

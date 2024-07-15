@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.first  .container{
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first .container h1{
+    color: white;
+    box-sizing: 10px;
+}
+
+.first {
+    background: url("../images/image-ecole.png") no-repeat white top;
+    padding: 100px;
+}
+
+
+
+.first p {
+    padding-left: 13px;
+    text-transform: uppercase;
+}
+
+.first h1 {
+    font-family: 'poppins',sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+/* .images-partenaire img {
+    height: 30px;
+} */
+
+.images-partenaire {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.partenaire {
+    text-align: center;
+    align-items: center;
+    /* padding: 20px; */
+}
+
+.cover-first img {
+    height: 400px;
+    width: 100%;
+}
+
+.four {
+    padding: 100px;
+}
+
+.second .container {
+    padding: 50px 0;
+}
+
+.second .info {
+    text-align: center;
+}
+
+.second .info h2 {
+    font-size: 20px;
+}
+
+.icon-filiere {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icon-filiere a {
+    color: brown;
+}
+
+.trois {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+    background: url('../images/hero.png') fixed;
+    background-size: cover;
+    background-position:fixed ;
+    height: 70vh;
+}
+
+.trois h2 {
+    color: white;
+}
+
+span {
+    color: white;
+    opacity: 40%;
+}
+
+.postuler {
+    padding: 16px 24px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    color: brown;
+}
+
+#paragph-color {
+    color: brown;
+}
+
